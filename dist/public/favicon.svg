@@ -1,0 +1,35 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <title>Euphrates Academy favicon</title>
+  <!-- Shield background gold border -->
+  <path d="M3,2 L3,20 Q3,28 16,31 Q29,28 29,20 L29,2 Z" fill="#d97706"/>
+  <!-- Shield body -->
+  <path d="M4.5,3 L4.5,20 Q4.5,26.5 16,29.5 Q27.5,26.5 27.5,20 L27.5,3 Z" fill="#064e3b"/>
+  <!-- Divider line -->
+  <line x1="4.5" y1="13" x2="27.5" y2="13" stroke="#047857" stroke-width="0.8"/>
+  <!-- Upper: hills + sun -->
+  <clipPath id="uc">
+    <rect x="4.5" y="3" width="23" height="10"/>
+  </clipPath>
+  <g clip-path="url(#uc)">
+    <rect x="4.5" y="3" width="23" height="10" fill="#065f46"/>
+    <ellipse cx="9" cy="11" rx="8" ry="5" fill="#047857"/>
+    <ellipse cx="18" cy="10" rx="9" ry="5" fill="#047857"/>
+    <ellipse cx="26" cy="11" rx="7" ry="4" fill="#047857"/>
+    <ellipse cx="11" cy="14" rx="8" ry="4" fill="#059669"/>
+    <ellipse cx="22" cy="14" rx="8" ry="4" fill="#059669"/>
+    <circle cx="16" cy="4.5" r="2.5" fill="#fbbf24" opacity="0.9"/>
+  </g>
+  <!-- Lower: book -->
+  <clipPath id="lc">
+    <path d="M4.5,13 L27.5,13 L27.5,20 Q27.5,26.5 16,29.5 Q4.5,26.5 4.5,20 Z"/>
+  </clipPath>
+  <g clip-path="url(#lc)">
+    <rect x="4.5" y="13" width="23" height="17" fill="#047857"/>
+    <!-- Open book pages -->
+    <rect x="8" y="15.5" width="7.5" height="8" rx="1" fill="#d97706"/>
+    <rect x="16.5" y="15.5" width="7.5" height="8" rx="1" fill="#d97706"/>
+    <line x1="16" y1="15.5" x2="16" y2="23.5" stroke="#064e3b" stroke-width="1.2"/>
+    <!-- River wave -->
+    <path d="M7,26 Q10,23 13,26 Q16,29 19,26 Q22,23 25,26" fill="none" stroke="#6ee7b7" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+</svg>
